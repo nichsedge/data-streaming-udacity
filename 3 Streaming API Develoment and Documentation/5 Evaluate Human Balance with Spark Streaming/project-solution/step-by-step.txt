@@ -1,0 +1,7 @@
+/data/spark/sbin/start-master.sh
+
+cat /opt/spark-2.3.4-bin-hadoop2.7/logs/spark--org.apache.spark.deploy.master.Master-1-4fcc5d57ef41adab85a1ddc76ba80e6739c7a152-c88599fd8-nfglf.out
+
+/data/spark/sbin/start-slave.sh spark://4fcc5d57ef41adab85a1ddc76ba80e6739c7a152-c88599fd8-nfglf:7077
+
+cat /opt/spark-2.3.4-bin-hadoop2.7/logs/spark--org.apache.spark.deploy.worker.Worker-1-4fcc5d57ef41adab85a1ddc76ba80e6739c7a152-c88599fd8-nfglf.out
